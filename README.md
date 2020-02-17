@@ -29,8 +29,7 @@ Webhosting control panel that uses OpenLiteSpeed as web server.
 
 # Installation Instructions
 
-
-```
+``` 
 sh <(curl https://cyberpanel.net/install.sh || wget -O - https://cyberpanel.net/install.sh)
 ```
 
@@ -40,4 +39,11 @@ sh <(curl https://cyberpanel.net/install.sh || wget -O - https://cyberpanel.net/
 * [Documentation.](https://docs.cyberpanel.net)
 * [Forums.](https://forums.cyberpanel.net)
 
+# Aplicação vai ser remodelada para as necessidades de SASS
+
+Por necessidade de uma ferramenta open source, temos no Cyber Panel, vario modulos que ainda estão desatualizado.
+
+Agora teremos um grande trabalho para modificar a atulizar a ferramenta e futuramente migrar ele de Django para AdonisJS ou Express para consulmir um frontend e um mobile.
+
+Vamos criar a primeira hosting hibrida.
 
